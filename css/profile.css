@@ -1,0 +1,158 @@
+.sidebar {
+    background-image:url('../img/main-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: block;
+    position: fixed;
+    padding: 30px;
+    width: 20%;
+    height: 100%;
+    margin: auto;
+    float: left;
+    border-radius: 1em;
+}
+
+.sidebar img {
+    display: block;
+    margin: auto;
+}
+
+.sidebar #icon {
+    width: 4.5em;
+    height: 6em;
+}
+
+.sidebar #icon:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    transition-duration: 1s;
+}
+
+.sidebar #crown {
+    width: 5em;
+    height: 4em;
+    margin-top: -7.5em;
+    margin-left: 5.5em;
+    margin-bottom: 8em;
+}
+
+.sidebar ul {
+    display: block;
+    list-style: none;
+    text-align: center;
+    font-family: Arial;
+    font-size: 1.2em;
+    letter-spacing: 0.5em;
+    padding-left: 0%;
+    margin: auto;
+}
+
+.sidebar li {
+    border-style: solid;
+    height: 2em;
+    padding: 0.8em 0em 0em 0.3em;
+    color: black;
+    opacity: 0.8;
+    width: 12em;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.sidebar li a
+{   
+    display: block;
+    margin-right: -0.5em;
+}
+
+.sidebar li:hover {
+    color: black;
+    border-style: dotted solid;
+    -moz-box-shadow: 0px 0px 10px #ccc; 
+    -webkit-box-shadow: 0 0 10px #ccc; 
+    box-shadow: 0px 0px 10px #ccc;
+    opacity: 1;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar a:hover {
+    color:black;
+}
+
+#logo {
+    width: 50%;
+    position: relative;
+}
+
+hr { 
+  height: 1em; 
+  border-style: solid; 
+  border-color: #ff944d; 
+  border-width: 0.3em 0em 0em 0em; 
+  border-radius: 10em; 
+} 
+
+
+.feed {
+    color: black;
+    background-color: #f5f5ef;
+    border-radius: 1em;
+    width: 74%;
+    float: right;
+}
+
+.feed .exer1{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.feed .subtitle {
+    margin-left: 1em;
+    margin-bottom: 0em;
+    font-family: Arial;
+    font-size: 1.5em;
+    letter-spacing: 0.5em;
+}
+
+.feed .basic {
+    margin-left: 1.5em;
+    margin-right: 1em;
+    font-size: 1em;
+    font-family: New Century Schoolbook, Arial;
+}
+
+.feed .basic span, .feed .heading{
+    font-weight: bold;
+}
+
+.feed .fave {
+    font-style: italic;
+}
+
+.feed .social p {	
+    text-align: right;
+    margin-left: 3em;
+}
+
+.feed .social a {
+    text-decoration: none;
+}
+
+.feed .social img {
+    padding-right: 0.7em;
+    width: 3em;
+    height: 3em;
+    opacity: 0.5;
+}
+
+.feed .social img:hover {
+    opacity: 1;
+}
+
+.feed .social #tumb {
+    height:2.8em;
+    width: 2.8em;
+}
